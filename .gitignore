@@ -1,0 +1,62 @@
+# ========================
+# Android .gitignore
+# ========================
+
+# Gradle build files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+
+# APK and other output artifacts
+*.apk
+*.ap_
+*.aab
+
+# Android Studio config
+/.idea
+.DS_Store
+*.swp
+*.swo
+
+# Keystore files (never commit secrets)
+*.jks
+*.keystore
+
+# Generated files
+gen/
+bin/
+out/
+captures/
+
+# Crashlytics and Firebase
+crashlytics.properties
+fabric.properties
+
+# Lint/analysis
+lint/intermediates/
+lint/generated/
+lint/reports/
+
+# MediaPipe / model cache (optional, if using cached model paths)
+*.task
+/data/local/tmp/*
+
+# MacOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Environment files
+.env
